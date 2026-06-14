@@ -1,0 +1,25 @@
+###############################################################################
+# Packages 
+###############################################################################
+
+options(tibble.print_min = Inf, tibble.print_max = Inf,digits = 4)
+library(parallel)
+library(doParallel)
+library(foreach)
+library(doRNG)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(scales)
+library(grid)
+library(statmod)
+library(fitdistrplus)
+library(ggthemes)
+library(gridExtra)
+library(purrr)
+library(WDI) 
+library(forecast)
+library(stats)
+library(tseries)
+library(urca)
+library(zoo)
