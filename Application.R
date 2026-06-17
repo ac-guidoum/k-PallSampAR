@@ -121,6 +121,7 @@ cor_data <- dat %>%
   ungroup() %>%
   pivot_longer(cols = c(acf, pacf), names_to = "type", values_to = "valeur") %>%
   mutate(type = toupper(type))
+ci <- qnorm(0.975) / sqrt(25)
 
 p3 <- ggplot(cor_data, aes(x = factor(lag), y = valeur, fill = abbr)) +
   geom_bar(stat = "identity", alpha = 0.65, width = 0.5) +
