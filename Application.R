@@ -2,7 +2,7 @@
 ##  Application
 ##  "Plots of Annual Unemployment Rates (AURs) for (DZ, CA, IT, JP, USA, EG)"
 ##  Source : World Bank WDI, indicator SL.UEM.TOTL.ZS, 1991-2024
-##  Style : fig05.pdf  (p1 colored lines, p2 colored box plots + points,
+##  Style : figure 06  (p1 colored lines, p2 colored box plots + points,
 ##                      p3 single grouped-bar ACF)
 ###############################################################################
 
